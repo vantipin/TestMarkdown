@@ -9,14 +9,18 @@
 ### PPC Chain Authorization
 This diagram shows how chain authorization (CAuth) establishes secure sharing of private information from Interbit Accounts with other interbit applications.
 #### Active parties
----------------
-**MyApps in Browser** - separate frontend React application. This application represent your application frontend part. Runs read-only blockchain in browser. However they can dispatch actions to the full nodes. 
+> All of the parties below are separate applications.
+**MyApps in Browser** - Frontend React application. This application represent your application frontend part. 
+> Runs read-only blockchain in browser. However they can dispatch actions to the full nodes. 
 
-**Application Private Chain** - separate backend application. This application represent your application custom backend logic. Full interbit node. It is not proper React app because it doesn't provide UI.
+**Application Private Chain** - Backend application. This application represent your application custom backend logic. 
+> Full interbit node. It is not proper React app because it doesn't provide UI.
 
-**Accounts in Browser** - separate frontend React application. This application represent frontend for Interbit platform authentication service. Runs read-only blockchain in browser. However they can dispatch actions to the full nodes.
+**Accounts in Browser** - Frontend React application. This application represent frontend for Interbit platform authentication service. 
+> Runs read-only blockchain in browser. However they can dispatch actions to the full nodes.
 
-**Accounts Private Chain** - separate backend application. This application represent Interbit authentication backend service. It is designed to be used with all your applications per product so that auth only needs to be implemented once, rather than once per each application. Full interbit node. It is not proper React app because it doesn't provide UI.
+**Accounts Private Chain** - Backend application. This application represent Interbit authentication backend service. It is designed to be used with all your applications per product so that auth only needs to be implemented once, rather than once per each application. 
+> Full interbit node. It is not proper React app because it doesn't provide UI.
 
 #### Hosting
 Currently, each node would be manually launched. Peers are declared in the app configuration, so that you can decide the physical topology of the nodes.
