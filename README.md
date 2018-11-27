@@ -27,7 +27,7 @@ This diagram shows how chain authorization (CAuth) establishes secure sharing of
 ## Hosting
 All of the active parties are separate applications. Currently, each node would be manually launched. Peers are declared in the app configuration, so that you can decide the physical topology of the nodes.
 
-There are deployment features in development that would allow a node to launch and receive its configuration from an already-existing blockchain network, but they are not ready yet.
+> There are deployment features in development that would allow a node to launch and receive its configuration from an already-existing blockchain network, but they are not ready yet.
 
 ![ppc-pattern1](https://user-images.githubusercontent.com/16136204/49014826-6e215e80-f192-11e8-868c-3fc80fdd34c8.jpg)
 
