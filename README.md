@@ -7,9 +7,11 @@
 # PPC Model
 ## PPC Chain Authorization
 This diagram shows how chain authorization (CAuth) establishes secure sharing of private information from Interbit Accounts with other interbit applications.
+
 ### Active parties
-**MyApps in Browser** - Frontend React application. This application represent your application frontend part. 
-> Runs read-only blockchain in browser. However they can dispatch actions to the full nodes. 
+**MyApps in Browser** -  This application represent your application frontend part. 
+- [x] Frontend React application.
+- [x] Runs read-only blockchain in browser. However they can dispatch actions to the full nodes. 
 
 **Application Private Chain** - Backend application. This application represent your application custom backend logic. 
 > Full interbit node. It is not proper React app because it doesn't provide UI.
