@@ -1,8 +1,8 @@
 # Examples of Interbit applications
 
 ## Glossary
-PPC - Public, Private, Control
-CAuth - chain authorization
+- PPC - Public, Private, Control
+- CAuth - chain authorization
 
 ## PPC Pattern
 
