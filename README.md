@@ -9,6 +9,7 @@
 This diagram shows how chain authorization (CAuth) establishes secure sharing of private information from Interbit Accounts with other interbit applications.
 
 
+
 ### Active parties
 **MyApps in Browser** -  This application represent your application frontend part. 
 - [x] Frontend React application.
@@ -25,6 +26,7 @@ This diagram shows how chain authorization (CAuth) establishes secure sharing of
 **Accounts Private Chain** - This application represent Interbit authentication backend service. It is designed to be used with all your applications per product so that auth only needs to be implemented once, rather than once per each application. 
 - [x] Backend application. 
 - [x] Full interbit node.
+
 
 
 ### Hosting
