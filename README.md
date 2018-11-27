@@ -1,6 +1,6 @@
-#Examples of Interbit applications
+# Examples of Interbit applications
 
-##Active parties
+## Active parties
 - [x] Browser
 - [x] React.js
 - [x] Redux.js
