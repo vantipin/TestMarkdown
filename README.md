@@ -1,8 +1,10 @@
 # Examples of Interbit applications
 
 # Glossary
-- PPC - Public, Private, Control
-- CAuth - chain authorization
+**PPC** - Public, Private, Control
+
+**CAuth** - chain authorization
+
 
 # PPC Chain Authorization
 This diagram shows how chain authorization (CAuth) establishes secure sharing of private information from Interbit Accounts with other interbit applications.
@@ -30,6 +32,14 @@ All of the active parties are separate applications. Currently, each node would 
 > There are deployment features in development that would allow a node to launch and receive its configuration from an already-existing blockchain network, but they are not ready yet.
 
 ![ppc-pattern1](https://user-images.githubusercontent.com/16136204/49014826-6e215e80-f192-11e8-868c-3fc80fdd34c8.jpg)
+
+## Walkthrough
+URL: https://MyApps.com
+> User journey starts at the site above.
+
+Read authorization status (Is app private chain joined to users private accounts chain)
+> Check if backend setup operations needs to be performed before **MyApps in Browser** can provide service to the user. Initially **Application Private Chain** needs to be created for each active user, however here we assume that **Application Private Chain** already created and we can proceed with describing Authorization logic.
+
 
 # PPC Implementation
 This diagram documents in detail how interbit applications and Interbit Accounts currently implement the PPC pattern for authentication and authorization.
